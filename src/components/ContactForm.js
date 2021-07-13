@@ -45,7 +45,14 @@ export default function ContactForm() {
   const [message, setMessage] = useState('');
   return (
     <div>
-      <FormStyle>
+      <FormStyle
+        method="POST"
+        action="thank-you/english.html"
+        name="contact"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+        encType="application/x-www-form-urlencoded"
+      >
         <input type="hidden" name="contact" value="contact" />
         <div className="form-group">
           <label htmlFor="name">
