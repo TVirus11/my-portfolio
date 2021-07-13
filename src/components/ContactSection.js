@@ -3,6 +3,7 @@ import { MdEmail, MdLocalPhone } from 'react-icons/md';
 import styled from 'styled-components';
 import ContactForm from './ContactForm';
 import ContactInfoItem from './ContactInfoItem';
+import PText from './PText';
 import SectionTitle from './SectionTitle';
 
 const ContactSectionStyle = styled.div`
@@ -31,6 +32,13 @@ const ContactSectionStyle = styled.div`
   .right {
     max-width: 500px;
     width: 100%;
+  }
+  .text {
+    background-color: var(--deep-dark);
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    font-size: small;
   }
   @media only screen and (max-width: 768px) {
     .contactSection__wrapper {
@@ -64,6 +72,9 @@ export default function ContactSection() {
             <ContactInfoItem text="Bhubaneswar, Odisha, India" />
           </div>
           <div className="right">
+            <PText>
+              Please Provide Your Mobile Number and Email ID in the message box.
+            </PText>
             <ContactForm />
           </div>
         </div>

@@ -19,7 +19,7 @@ const HeroStyle = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-top: 8rem;
     position: relative;
     span {
       display: inline-block;
@@ -28,7 +28,8 @@ const HeroStyle = styled.div`
     .hero__name {
       font-size: 7rem;
       font-family: 'Montserrat SemiBold';
-      color: var(--red);
+      color: var(--gray-1);
+      margin-bottom: 2.5rem;
     }
   }
   .hero__img {

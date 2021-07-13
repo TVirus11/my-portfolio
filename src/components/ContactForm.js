@@ -55,6 +55,7 @@ export default function ContactForm() {
         e.target,
         'user_ygp9wv4FiFWNsvBgLRvjy'
       )
+
       .then(
         (result) => {
           console.log(result.text);
