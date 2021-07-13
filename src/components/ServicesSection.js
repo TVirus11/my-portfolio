@@ -33,17 +33,17 @@ export default function ServicesSection() {
           <ServicesSectionItem
             icon={<MdDesktopMac />}
             title="Software Development"
-            desc="qwiyihakjdhaisdhkjdbaskudgaks kajhsdkasdakus y  awdhakjda iudgakdb"
+            desc="Using python and Tkinter I can build some desktop application which can simplify your tasks."
           />
           <ServicesSectionItem
             icon={<MdCode />}
-            title="Website Development"
-            desc="kjashdk asudgajdg awjtdawj a yakj gda kvud"
+            title="UI Design"
+            desc="I can design unique user interfaces for android applications."
           />
           <ServicesSectionItem
             icon={<MdPhoneAndroid />}
             title="Android Development"
-            desc="kdhas asidhakudh aiudtqw dAMDJTGA IU AVADSJ A"
+            desc="With my 2+ years of experience in this field, I can develop any kind of app according to your need."
           />
         </div>
       </div>
