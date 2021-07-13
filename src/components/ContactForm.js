@@ -47,7 +47,6 @@ export default function ContactForm() {
     <div>
       <FormStyle
         method="POST"
-        action="thank-you/english.html"
         name="contact"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
