@@ -24,7 +24,15 @@
     <title>Saurav's Portfolio</title>
   </head>
   <body>
-    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+    <form
+      name="contact"
+      method="POST"
+      netlify
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      value="contact"
+      hidden
+    >
       <input type="text" name="name" />
       <input type="text" name="email" />
       <textarea type="text" name="message"></textarea>
