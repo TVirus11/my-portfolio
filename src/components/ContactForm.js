@@ -46,6 +46,7 @@ export default function ContactForm() {
   return (
     <div>
       <FormStyle>
+        <input type="hidden" name="form-name" value="contact" />
         <div className="form-group">
           <label htmlFor="name">
             Your Name
@@ -55,6 +56,7 @@ export default function ContactForm() {
               name="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
+              required
             />
           </label>
         </div>
@@ -67,6 +69,7 @@ export default function ContactForm() {
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              required
             />
           </label>
         </div>
@@ -79,6 +82,7 @@ export default function ContactForm() {
               name="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              required
             />
           </label>
         </div>
