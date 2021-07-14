@@ -62,17 +62,16 @@ const HeroStyle = styled.div`
     right: 50px;
   }
   .hero__social__indicator {
-    margin-top: 3rem;
+    width: 50px;
     p {
       font-size: 1.6rem;
       transform: translateY(-70px) rotate(90deg);
-      letter-spacing: 0.5rem;
+      letter-spacing: 0.7rem;
       text-transform: uppercase;
-      width: 45px;
     }
     img {
-      max-height: 45px;
-      width: 40px;
+      max-height: 50px;
+      width: 16px;
       margin: 0 auto;
       object-fit: contain;
     }
@@ -104,7 +103,7 @@ const HeroStyle = styled.div`
       }
       a {
         display: inline-block;
-        width: 40px;
+        width: 30px;
         gap: 0.5rem;
         margin-bottom: 2rem;
       }
