@@ -5,6 +5,10 @@ import Button from './Button';
 import PText from './PText';
 import SocialMediaArrow from '../assets/images/social-media-arrow.svg';
 import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
+import Facebook from '../assets/images/fb.png';
+import Twitter from '../assets/images/tw.png';
+import Linkedin from '../assets/images/li.png';
+import Instagram from '../assets/images/ig.png';
 
 const HeroStyle = styled.div`
   .hero {
@@ -57,7 +61,21 @@ const HeroStyle = styled.div`
   .hero__scrollDown {
     right: 50px;
   }
-  .hero__social__indicator,
+  .hero__social__indicator {
+    p {
+      font-size: 1.6rem;
+      transform: translateY(-70px) rotate(90deg);
+      letter-spacing: 0.5rem;
+      text-transform: uppercase;
+      width: 45px;
+    }
+    img {
+      max-height: 45px;
+      width: 40px;
+      margin: 0 auto;
+      object-fit: contain;
+    }
+  }
   .hero__scrollDown {
     width: 50px;
     p {
@@ -85,9 +103,8 @@ const HeroStyle = styled.div`
       }
       a {
         display: inline-block;
-        font-size: 1.6rem;
-        transform: rotate(-90deg);
-        letter-spacing: 5px;
+        width: 40px;
+        gap: 0.5rem;
         margin-bottom: 2rem;
       }
     }
@@ -115,11 +132,13 @@ const HeroStyle = styled.div`
       width: 20px;
       .hero__social__indicator {
         width: 20px;
+
         p {
           font-size: 1.2rem;
         }
         img {
           max-height: 22px;
+          top: 20px;
         }
       }
       .hero_social_text {
@@ -177,7 +196,7 @@ export default function HeroSection() {
                     taget="_blank"
                     rel="noreferrer"
                   >
-                    Fb
+                    <img src={Facebook} alt="facebook" />
                   </a>
                 </li>
                 <li>
@@ -186,7 +205,7 @@ export default function HeroSection() {
                     taget="_blank"
                     rel="noreferrer"
                   >
-                    Tw
+                    <img src={Twitter} alt="facebook" />
                   </a>
                 </li>
                 <li>
@@ -195,7 +214,7 @@ export default function HeroSection() {
                     taget="_blank"
                     rel="noreferrer"
                   >
-                    Li
+                    <img src={Linkedin} alt="facebook" />
                   </a>
                 </li>
                 <li>
@@ -204,7 +223,7 @@ export default function HeroSection() {
                     taget="_blank"
                     rel="noreferrer"
                   >
-                    Ig
+                    <img src={Instagram} alt="facebook" />
                   </a>
                 </li>
               </ul>
