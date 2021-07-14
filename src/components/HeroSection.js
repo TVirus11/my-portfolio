@@ -105,7 +105,7 @@ const HeroStyle = styled.div`
         display: inline-block;
         width: 30px;
         gap: 0.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
       }
     }
   }
