@@ -62,6 +62,7 @@ const HeroStyle = styled.div`
     right: 50px;
   }
   .hero__social__indicator {
+    margin-top: 3rem;
     p {
       font-size: 1.6rem;
       transform: translateY(-70px) rotate(90deg);
@@ -122,7 +123,6 @@ const HeroStyle = styled.div`
     }
     .hero__img {
       height: 300px;
-      width: 500px;
     }
     .hero__info {
       margin-top: 3rem;
@@ -133,13 +133,12 @@ const HeroStyle = styled.div`
       width: 20px;
       .hero__social__indicator {
         width: 20px;
-
+        margin-top: 3rem;
         p {
           font-size: 1.2rem;
         }
         img {
           max-height: 22px;
-          top: 20px;
         }
       }
       .hero_social_text {
