@@ -122,6 +122,7 @@ const HeroStyle = styled.div`
     }
     .hero__img {
       height: 300px;
+      width: 500px;
     }
     .hero__info {
       margin-top: 3rem;
