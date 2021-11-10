@@ -84,8 +84,8 @@ export default function Footer() {
                 path: 'tel: 9709729308',
               },
               {
-                title: 'official.skd.11@gmail.com',
-                path: 'mailto: official.skd.11@gmail.com',
+                title: 'work.saurav.05@gmail.com',
+                path: 'mailto: work.saurav.05@gmail.com',
               },
               {
                 title: 'Tamando, Bhubaneswar, Odisha',
@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>© 2021 - Saurav Kumar | Designed By DroidSaurav</PText>
+          <PText>© 2021 - Saurav Kumar</PText>
         </div>
       </div>
     </FooterStyle>
