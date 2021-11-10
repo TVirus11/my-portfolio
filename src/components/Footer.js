@@ -59,9 +59,9 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Saurav Kumar</h1>
           <PText>
-            I am working as a freelance android developer for 2 years. I love to
-            design and develop android applications. I am having 1 year
-            experience in flutter also.
+            I am working as a freelance android developer for 3+ years. I love
+            to design and develop android applications. I can design UI using
+            figma also.
           </PText>
         </div>
         <div className="footer__col2">
