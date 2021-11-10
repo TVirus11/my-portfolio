@@ -2,6 +2,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ProjectImg from '../images/projectImg.png';
 import UTrackerImg from '../images/utracker.jpg';
 import GreenCtgImg from '../images/greenctg.jpg';
+import ReadMeBanner from '../images/readMeBanner.png';
 import CoinTrackerImg from '../images/cointracker.jpg';
 import CavinImg from '../images/cavinimg.jpg';
 
@@ -40,7 +41,7 @@ const projects = [
     id: uuidv4(),
     name: 'My Portfolio',
     desc: 'I have designed and developed my Portfolio using react. And the website is hosted on Netlify.',
-    img: ProjectImg,
+    img: ReadMeBanner,
   },
 ];
 
