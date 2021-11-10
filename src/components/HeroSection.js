@@ -176,9 +176,9 @@ export default function HeroSection() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance android developer for 2 years. I love
-              to design and develop android applications. I am having 1 year
-              experience in flutter also.
+              I am working as a freelance android developer for 3+ years. I love
+              to design and develop android applications. I can design UI using
+              figma also.
             </PText>
             <Button btnLink="/projects" btnText="See my Works" />
           </div>
