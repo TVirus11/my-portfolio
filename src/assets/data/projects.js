@@ -3,7 +3,7 @@ import ProjectImg from '../images/projectImg.png';
 import UTrackerImg from '../images/utracker.jpg';
 import GreenCtgImg from '../images/greenctg.jpg';
 import ReadMeBanner from '../images/readMeBanner.png';
-import CoinTrackerImg from '../images/cointracker.jpg';
+import InstaPP from '../images/instaPP.png';
 import CavinImg from '../images/cavinimg.jpg';
 
 const projects = [
@@ -23,7 +23,7 @@ const projects = [
     id: uuidv4(),
     name: 'Insta Profile Downloader',
     desc: 'This software lets you download anyones profile picture from instagram by just entering their user name.',
-    img: CoinTrackerImg,
+    img: InstaPP,
   },
   {
     id: uuidv4(),
