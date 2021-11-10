@@ -36,6 +36,12 @@ const projects = [
     desc: 'A python app which notifies you about every new case , every casualty of every state in India at a set interval of time.',
     img: ProjectImg,
   },
+  {
+    id: uuidv4(),
+    name: 'My Portfolio',
+    desc: 'I have designed and developed my Portfolio using react. And the website is hosted on Netlify.',
+    img: ProjectImg,
+  },
 ];
 
 export default projects;
