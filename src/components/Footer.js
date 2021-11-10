@@ -120,7 +120,7 @@ export default function Footer() {
       </div>
       <div className="copyright">
         <div className="container">
-          <PText>© 2021 - Saurav Kumar</PText>
+          <PText>All Rights Reserved | © 2021 - Saurav Kumar</PText>
         </div>
       </div>
     </FooterStyle>
