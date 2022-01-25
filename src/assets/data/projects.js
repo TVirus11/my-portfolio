@@ -43,6 +43,12 @@ const projects = [
     desc: 'I have designed and developed my Portfolio using react. And the website is hosted on Netlify.',
     img: ReadMeBanner,
   },
+  {
+    id: uuidv4(),
+    name: 'Road Lane Detection System',
+    desc: 'I am developing a road lane detection system using python and openCV.',
+    img: ReadMeBanner,
+  },
 ];
 
 export default projects;
